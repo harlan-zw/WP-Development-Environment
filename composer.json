@@ -1,0 +1,15 @@
+{
+    "name": "harlan/easy-development",
+    "description": "Common functions for handling the development environment on WordPress sites",
+    "type": "wp-plugin",
+    "authors": [
+        {
+            "name": "Harlan",
+            "email": "harlan103@hotmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "symfony/var-dumper": "^3.3"
+    }
+}
