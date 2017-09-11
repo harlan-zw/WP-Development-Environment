@@ -60,6 +60,7 @@ const DEVELOPMENT_FLAGS = [
 	'testing'
 ];
 
+global $env_is_development;
 $env_is_development = match_env_constant(ENVIRONMENT_KEYS, function($value) {
 	return in_array(strtolower($value), DEVELOPMENT_FLAGS);
 });
@@ -89,6 +90,7 @@ $components = [
 	'disallow-indexing',
 	'flush-rewrites',
 	'no-password-logins',
+	'which-template',
 	'whoops-error-handling',
 ];
 
