@@ -96,7 +96,7 @@ $components = [
 
 foreach($components as $component) {
 	$include = true;
-	if (apply_filters('development-environment/require-component-' . $component, $include)) {
+	if (apply_filters(PLUGIN_KEY . '/require-component-' . $component, $include)) {
 		require 'components/' . $component . '.php';
 	}
 }
