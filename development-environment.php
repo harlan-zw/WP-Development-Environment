@@ -77,6 +77,11 @@ function is_production() {
 	return !$env_is_development;
 }
 
+// don't run if we're using wp-cli
+if ( defined( 'WP_CLI' ) && WP_CLI ) {
+	return;
+}
+
 // never run on production
 if (is_production()) {
 	return;
