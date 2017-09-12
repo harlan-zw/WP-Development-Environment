@@ -17,7 +17,7 @@ Components
 ---------
 - **Disallow Indexing** Turn off the public blog option. This will modify the robots.txt generation to block all search engines
 - **Flush Rewrites** No more weird redirection problems when working on custom post types or taxonomies.
-- **No Password Logins** Just stick the user in you want to login as, write anything in the password field, and it will login!
+- **No Password Logins** Just stick the user in you want to login as, write anything in the password field, and it will login! Only works when connecting from local host
 - **Whoops Error Handling** The error screen from laravel, now in your wordpress setup
 
 
