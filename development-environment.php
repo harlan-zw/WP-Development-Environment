@@ -1,14 +1,4 @@
 <?php
-/*
-Plugin Name: Development Environment
-Plugin URI: https://github.com/loonpwn/wp-development-environment
-Description: Run extra components in our development environment for easier debugging and usability
-Version: 1.0.3
-Author: Harlan Wilton
-Author URI: https://harlanzw.com
-License: GPL2
-*/
-
 /**
  * Class DevelopmentEnvironment
  *
@@ -63,10 +53,13 @@ class DevelopmentEnvironment {
 			return;
 		}
 
-		// if we're not in production - let's load our components
-		if (!$this->is_production()) {
-			$this->load_components();
-		}
+		add_action('init', function() {
+			// if we're not in production - let's load our components
+			if (!$this->is_production()) {
+				$this->load_components();
+			}
+		});
+
 	}
 
 	/**
