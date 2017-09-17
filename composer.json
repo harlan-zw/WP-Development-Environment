@@ -10,6 +10,12 @@
     ],
     "require": {
         "filp/whoops": "^2.1",
-        "symfony/var-dumper": "^3.3"
+        "symfony/var-dumper": "^3.3",
+        "wpupdatephp/wp-update-php": "^1.1"
+    },
+    "autoload": {
+        "files": [
+            "development-environment.php"
+        ]
     }
 }

@@ -1,4 +1,10 @@
 <?php
+/**
+ * @purpose Embed HTML comment into the code for which template file is being rendered.
+ *
+ * @todo potentially expand to show post details
+ */
+
 
 if (!function_exists('get_current_template')) {
 	/**

@@ -20,6 +20,12 @@ Components
 - **No Password Logins** Just stick the user in you want to login as, write anything in the password field, and it will login! Only works when connecting from local host
 - **Whoops Error Handling** The error screen from laravel, now in your wordpress setup
 
+Min Requirements
+---------
+
+- PHP 7
+- WordPress 4.8.1
+
 
 Setup
 -------------
