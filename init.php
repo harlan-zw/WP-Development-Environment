@@ -9,12 +9,15 @@ Author URI: https://harlanzw.com
 License: GPL2
 */
 
-// include composer autoloader so we can utilize our libraries
-require 'vendor/autoload.php';
-
 // wrap in an anonymous function to avoid accidental global (min php 5.3)
-$init_development_environment = function() {
-	// check the php version
+$development_environment_init = function() {
+    // don't run if we're using wp-cli - causes potential issues
+    if ( defined( 'WP_CLI' ) && WP_CLI ) {
+        return;
+    }
+    // include composer autoloader so we can utilize our libraries
+    require 'vendor/autoload.php';
+    // check the php version
 	$update_php = new WPUpdatePhp( '7' );
 	if (!$update_php->does_it_meet_required_php_version()) {
 		return;
@@ -26,4 +29,4 @@ $init_development_environment = function() {
 };
 
 // begin
-$init_development_environment();
+$development_environment_init();

@@ -26,7 +26,7 @@ add_filter('template_include', function($t) {
 // show the template meta
 add_action('wp_head', function() {
 	$template = get_current_template();
-	echo '<!---
+	echo '<!--- == Development Environment Plugin ==
 		 Template File: ' .  basename($template) . '
 	     Template Path: ' . dirname($template) . '
 	     --->';

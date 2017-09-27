@@ -10,6 +10,7 @@ Components
 - **Flush Rewrites** No more weird redirection problems when working on custom post types or taxonomies.
 - **No Password Logins** Just stick the user in you want to login as, write anything in the password field, and it will login! Only works when connecting from local host
 - **Whoops Error Handling** The error screen from laravel, now in your wordpress setup
+- **Template Hints** See which templates are loading for the page you are on
 
 Min Requirements
 ---------
