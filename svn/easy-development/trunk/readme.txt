@@ -1,18 +1,18 @@
 === Development Environment ===
 Contributors: loonpwn
 Tags: development, easy, environment, dev, env, whoops
-Tested up to: 4.8.2
+Tested up to: 4.9.0
 Requires PHP: 7.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.6
 
-As a developer I want my development environment to be as accessible and easy to work with as possible so that I can improve my code quality and efficiency.
+Whoops error handling, no password logins, template hints, no indexing, flush rewrites, everything a developer needs for their local development environment.
 
 == Description ==
 
-This is one step in setting up an ideal WordPress Development Environment. Make your development life easier and more efficient with these simple components.
+Whoops error handling, no password logins, template hints, no indexing, flush rewrites, everything a developer needs for their local development environment.
 
 Components
 ---------
@@ -23,7 +23,7 @@ Components
 - **Template Hints** See which templates are loading for the page you are on
 
 
-The outcome is to exchange security for ease of use, for that reason it's important that you take the security measures needed
+The goal is to exchange security for ease of use, for that reason it's important that you take the security measures needed
 to ensure that someone can't take advantage of the site with this plugin enabled.
 
 If you're running on a staging environment ensure you have setup a [htpasswd](http://www.htaccesstools.com/htpasswd-generator/)
