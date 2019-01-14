@@ -1,12 +1,11 @@
 === Development Environment ===
 Contributors: loonpwn
 Tags: development, easy, environment
-Tested up to: 4.8.1
+Tested up to: 5.0.2
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
-Requires at least: 4.6
-Tested up to: 4.8.1
+Requires at least: 5.0.2
 
 The aim of this plugin is to make life easier when working on a WordPress site running in a development or testing environment.
 
@@ -64,6 +63,10 @@ Via **vhost**
 
 
 == Changelog ==
+
+= 1.6 =
+* Updating dependencies and fixing WP internal warnings
+
 
 = 1.0 =
 * Initial release
