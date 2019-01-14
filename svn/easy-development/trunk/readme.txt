@@ -3,7 +3,7 @@ Contributors: loonpwn
 Tags: development, easy, environment, dev, env, whoops
 Tested up to: 4.8.2
 Requires PHP: 7.0
-Stable tag: trunk
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.6
