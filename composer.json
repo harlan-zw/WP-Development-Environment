@@ -1,5 +1,5 @@
 {
-    "name": "harlan/easy-development",
+    "name": "loonpwn/easy-development",
     "description": "Common functions for handling the development environment on WordPress sites",
     "type": "wordpress-plugin",
     "authors": [
