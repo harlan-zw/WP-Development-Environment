@@ -3,7 +3,7 @@
 Plugin Name: Development Environment
 Plugin URI: https://github.com/loonpwn/wp-development-environment
 Description: Run extra components in our development environment for easier debugging and usability
-Version: 1.0.5
+Version: 1.0.6
 Author: Harlan Wilton
 Author URI: https://harlanzw.com
 License: GPL2

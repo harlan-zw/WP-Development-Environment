@@ -1,7 +1,7 @@
 === Development Environment ===
 Contributors: loonpwn
 Tags: development, easy, environment, dev, env, whoops
-Tested up to: 4.9.0
+Tested up to: 5.0.2
 Requires PHP: 7.0
 Stable tag: trunk
 License: GPLv2 or later
