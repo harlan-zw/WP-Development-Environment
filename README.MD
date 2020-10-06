@@ -1,4 +1,4 @@
-Development Environment
+Skills Development Environment
 ===================
 
 The aim of this plugin is to make life easier when working on a WordPress site running in a development or testing environment. 
@@ -21,7 +21,7 @@ Min Requirements
 Setup
 -------------
 
-#### **Environment**
+#### **Good Environment**
 
 The outcome is to exchange security for ease of use, for that reason it's important that you take the security measures needed 
 to ensure that someone can't take advantage of the site with this plugin enabled.
